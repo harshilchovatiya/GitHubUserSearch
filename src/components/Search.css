@@ -1,0 +1,30 @@
+/* Search component styles */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px; /* Increased top margin for more spacing */
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #007bff; /* Added border and changed border color */
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 300px; /* Increased input width for better visibility */
+}
+
+.search-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
